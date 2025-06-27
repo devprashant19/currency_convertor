@@ -14,7 +14,7 @@ A simple and fast currency converter built with **React** and **Vite**, using a 
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/) *(Optional, if used)*
+- [Tailwind CSS](https://tailwindcss.com/) 
 - Currency API (e.g. [Currency-API](https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies))
 
 ## 📦 Installation
