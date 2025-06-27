@@ -19,7 +19,7 @@ function InputBox({
                 <input id={amountInputId} type="number" placeholder='Amount' className='focus:outline-none p-2 text-black rounded-lg w-0 to w-80'
                     disabled={amountDisabled} value={amount} onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))} />
             </div>
-            <select value={selectedCurrency} onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)} disabled={currencyDisabled} className='focus:outline-none my-auto text-black p-2 rounded-lg w-0 to w-40'>
+            <select value={selectedCurrency} onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)} disabled={currencyDisabled} className='focus:outline-none my-auto text-black p-2 rounded-xl bg-gray-200 w-0 to w-40'>
                 {currencyOptions.map((currency) => (
                     <option key={currency} value={currency}>
                         {currency}
